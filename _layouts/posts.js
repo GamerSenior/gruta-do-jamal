@@ -9,8 +9,8 @@ export default function PostLayout(props) {
             <Head>
                 <title>{props.title}</title>
             </Head>
-            <div class="row">
-                <div class='col-11 offset-1'>
+            <div className="row">
+                <div className='col-11 offset-1'>
                     <article>
                         <h1>{props.title}</h1>
                         <div dangerouslySetInnerHTML={{__html:props.content}}/>

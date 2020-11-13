@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Header from '@includes/header'
-import Footer from '@includes/footer'
-import 'cirrus-ui'
 
 export default function DefaultLayout(props) {
     return (
@@ -21,10 +19,9 @@ export default function DefaultLayout(props) {
                 /* Fonts Awesome */
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
             </Head>
-            
+
             <Header />
             {props.children}
-            <Footer />
         </main>
     )
 }
