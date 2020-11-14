@@ -21,7 +21,9 @@ export default function DefaultLayout(props) {
             </Head>
 
             <Header />
-            {props.children}
+            <div className='bg-indigo-600' style={{width: '100vw', height: '100vh'}}>
+                {props.children}                
+            </div>
         </main>
     )
 }

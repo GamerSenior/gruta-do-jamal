@@ -3,10 +3,10 @@ import DefaultLayout from "@layouts/default";
 export default function About(props) {
     return (
         <DefaultLayout>
-            <div className='w-90' style={{ position: 'relative', 'margin-top': '64px' }}>
+            <div className='w-90 white' style={{ position: 'relative', 'margin-top': '52px' }}>
                 <div className='row' >
                     <div className='col-3'>
-                        <img src='/eu.jpg' style={{ 'border-radius': '10px' }}></img>
+                        <img src='/eu.jpg' style={{ 'border-radius': '20px' }}></img>
                     </div>
                     <div className='col-9' style={{'textAlign': 'justify'}}>
                         <h2>Sobre mim</h2>
