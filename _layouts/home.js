@@ -6,12 +6,14 @@ export default function Home(props) {
             <div className='hero-body u-center'>
                 <div className='w-90' style={{ position: 'relative' }}>
                     <div className='row'>
-                        <div className='col-6'>
-                            <h2 className='title white'>Seja bem-vindo a Gruta do Jamal</h2>
-                            <h5 className='subtitle text-gray-300'>
-                                Aqui você encontra meus desabafos e alguns artigos sobre tecnologia
-                            </h5>
-
+                        <div className='col-6 u-flex u-flex-column u-align-center u-justify-center'>
+                            <h2 className='title white'>Seja bem-vindo a minha gruta</h2>
+                            <h6 className='subtitle text-gray-300'>
+                                Tecnologia, desabados, musicas e poemas.
+                            </h6>
+                            <h7 className='subtitle text-gray-300'>
+                                Prossiga com cautela.
+                            </h7>
                         </div>
                         <div className='col-6'>
                             <img src="/coding.jpg" ></img>

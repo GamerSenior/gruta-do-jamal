@@ -1,4 +1,5 @@
 import 'cirrus-ui'
+import Link from 'next/link'
 
 export default function Header() {
     return (
@@ -45,9 +46,9 @@ export default function Header() {
                     <div className='nav-item has-sub toggle-hover' id='dropdown'>
                         <a className='nav-dropdown-link'>Menu</a>
                         <ul className='dropdown-menu dropdown-animated' role='menu' >
-                            <li role='menu-item'><a href='#'>Teste 1</a></li>
-                            <li role='menu-item'><a href='#'>Teste 2</a></li>
-                            <li role='menu-item'><a href='#'>Teste 3</a></li>
+                            <li role='menu-item'><a href='#'>Blog</a></li>
+                            <li role='menu-item'><Link href='/about'>Sobre mim</Link></li>
+                            <li role='menu-item'><a href='#'>Contato</a></li>
                         </ul>
                     </div>
                 </div>
