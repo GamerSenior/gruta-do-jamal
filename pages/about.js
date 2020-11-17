@@ -36,7 +36,7 @@ export default function About(props) {
                             <li>GoLang</li>
                             <li>Rust</li>
                         </ul>
-                        <p>Alguams com menos proficiência que outras...</p>
+                        <p>Algumas com menos proficiência que outras...</p>
                     </div>
                 </div>
             </div>
