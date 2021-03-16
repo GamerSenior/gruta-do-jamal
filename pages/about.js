@@ -16,12 +16,17 @@ export default function About(props) {
                             musicas e poesias nas horas vagas. 
                         </p>
                         <p>
-                            Atualmente na <b>Support - Sistemas de Gestão</b>, 
-                            trabalho como <b>Desenvolvedor Fullstack</b>,  
+                            Trabalhei na <b>Support - Sistemas de Gestão</b>
+                            como <b>Desenvolvedor Fullstack</b> por 3 anos,  
                             atuando ativamente na migração de um monolito
                             escrito em COBOL para uma aplicação SPA, utilizando 
                             uma stack composta por <b>VueJS</b> como framework 
-                            Frontend e o <b>Java (Spring/Hibernate)</b> no Backend.
+                            Frontend e o <b>Java (Spring/Hibernate)</b> no Backend,
+                            também dando manutenção em bancos de dados Oracle e PostgreSQL.
+                        </p>
+                        <p>
+                            Atualmente trabalho na <b>Prevision</b> também com o <b>Desenvolvedor Fullstack</b>
+                            porém agora com o framework Ruby on Rails no backend.
                         </p>
                         <p>
                             Procuro a todo momento me manter atualizado, atualmente 
