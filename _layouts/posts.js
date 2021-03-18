@@ -23,7 +23,7 @@ export default function PostLayout(props) {
                 <div className='col-11 offset-1 py-2'>
                     <article className='white'>
                         <h1>{props.title}</h1>
-                        <div dangerouslySetInnerHTML={{__html:props.content}}/>
+                        <div className='text-white' dangerouslySetInnerHTML={{__html:props.content}}/>
                     </article>
                 </div>
             </div>
