@@ -6,7 +6,7 @@ export default function Header() {
     const [menuActive, setMenuActive] = useState(false);
 
     return (
-        <div className='header header-fixed unselectable header-animated'>
+        <div className='header header-fixed unselectable header-animated bg-dark'>
             <div className='header-brand'>
                 <div className='nav-item no-hover'>
                     <a href='/'><h6>Gruta do Jamal</h6></a>
@@ -49,14 +49,21 @@ export default function Header() {
                 <div className='nav-right'>
                     <div className='nav-item has-sub toggle-hover' id='dropdown'>
                         <a className='nav-dropdown-link'>Menu</a>
-                        <ul className='dropdown-menu dropdown-animated' role='menu' >
+                        <ul className='dropdown-menu dropdown-animated bg-dark u-shadow' style={{border: 0}} role='menu' >
                             <li role='menu-item'><a href='/posts'>Blog</a></li>
-                            <li role='menu-item'><Link href='/about'>Sobre mim</Link></li>
+                            <li role='menu-item'><a href='/about'>Sobre mim</a></li>
                             <li role='menu-item'><a href='#'>Contato</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+
+            <style jsx>{`
+                a {
+                    color: white
+                }
+            `}
+            </style>
         </div>
     )
 }
