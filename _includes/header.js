@@ -9,7 +9,7 @@ export default function Header() {
         <div className='header header-fixed unselectable header-animated bg-dark'>
             <div className='header-brand'>
                 <div className='nav-item no-hover'>
-                    <a href='/'><h6>Gruta do Jamal</h6></a>
+                    <a href='/'><div className='logo'>Gruta do Jamal</div></a>
                 </div>
                 <div className={'nav-item nav-btn ' + (menuActive ? 'active ' : '') } 
                     id='header-btn' onClick={() => setMenuActive(!menuActive)}>
@@ -61,6 +61,11 @@ export default function Header() {
             <style jsx>{`
                 a {
                     color: white
+                }
+
+                .logo {
+                    font-family: 'Orbitron';
+                    font-size: 32px;
                 }
             `}
             </style>

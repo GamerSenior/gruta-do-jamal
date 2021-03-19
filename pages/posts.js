@@ -11,13 +11,12 @@ export default function Posts(props) {
                         <div className='card-container'>
                             <div className='card-image' style={{backgroundImage: `url(${post.image})`}}></div>
                             <div className='title-container'>
-                                <p className='title'>{post.title}</p>
+                                <h3 className='title'>{post.title}</h3>
                             </div>
                         </div>
                         <div className='content text-light u-text-justify'>
                             <p>{post.description}</p>
                         </div>
-
                     </div>
                 </Link>
             )
