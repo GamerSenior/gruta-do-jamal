@@ -22,8 +22,10 @@ export default function DefaultLayout(props) {
             </Head>
 
             <Header />
-            <div style={{width: '100%', height: '100%', position: 'absolute', top: 72}}>
-                {props.children}                
+            <div className="hero fullscreen">
+                <div className="hero-body u-center">
+                    {props.children}                
+                </div>
             </div>
             <style jsx global>{`
                 body {
