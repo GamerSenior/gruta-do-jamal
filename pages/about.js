@@ -6,7 +6,7 @@ export default function About(props) {
             <div className='w-90 white' style={{ position: 'relative', 'margin-top': '52px', width: '100%'}}>
                 <div className='row u-justify-space-evenly' >
                     <div className='col-4'>
-                        <img src='/eu.jpg' className="u-center" style={{ 'border-radius': '20px', height: '800px', width: '400px', objectFit: 'none'}}></img>
+                        <img src='/eu.jpg' className="u-center" style={{ 'border-radius': '20px', height: '600px', width: '400px', objectFit: 'none'}}></img>
                     </div>
                     <div className='col-4' style={{'textAlign': 'justify'}}>
                         <h2>Sobre mim</h2>
@@ -17,7 +17,7 @@ export default function About(props) {
                         </p>
                         <p>
                             Trabalhei na <b>Support - Sistemas de Gestão</b>
-                            como <b>Desenvolvedor Fullstack</b> por 3 anos,  
+                            &nbsp;como <b>Desenvolvedor Fullstack</b> por 3 anos,  
                             atuando ativamente na migração de um monolito
                             escrito em COBOL para uma aplicação SPA, utilizando 
                             uma stack composta por <b>VueJS</b> como framework 
@@ -25,7 +25,8 @@ export default function About(props) {
                             também dando manutenção em bancos de dados Oracle e PostgreSQL.
                         </p>
                         <p>
-                            Atualmente trabalho na <b>Prevision</b> também com o <b>Desenvolvedor Fullstack</b> porém 
+                            Atualmente trabalho na <b>Prevision</b> também como 
+                            &nbsp;<b>Desenvolvedor Fullstack</b> porém 
                             agora com o framework Ruby on Rails no backend.
                         </p>
                         <p>
